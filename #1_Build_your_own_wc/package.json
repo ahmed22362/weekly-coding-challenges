@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}
